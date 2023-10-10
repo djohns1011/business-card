@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #21222A;
+    padding-top: 20px;
+    font-family: Inter,sans-serif;
+    
+}
+
+div {
+    background-color: #2f333b;
+    border-radius: 10px;
+    max-width: 280px;
+}
+
+.image img {
+    margin: 0;
+    width: 280px;
+    height: 270px;
+    border-radius: 10px 10px 0 0;
+}
+
+.main-section{
+    color: white;
+    height: 100%;
+}
+
+.main-section h1{
+    text-align: center;
+    padding-top: 3px;
+    font-size: 24px;
+}
+
+.main-section h4{
+    text-align: center;
+    color: rgb(241, 241, 124);
+    font-size: smaller;
+    padding: 5px 0 2px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.email-button{
+    margin: 10px 2px;
+    border-radius: 5px;
+    border: none;
+    padding: 0px 26px;
+    cursor: pointer;
+}
+
+.linkedin-button {
+    margin: 10px 5px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 23px;
+    background-color: #00A0DC;
+    color: white;
+    cursor: pointer;
+}
+
+.content-section{
+    padding: 0 20px;
+}
+
+.content-section h5{
+    text-align: left;
+    color: rgb(241, 241, 124);
+    font-size: smaller;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.content-section p{
+    text-align:left;
+    padding-left: 10px;
+    font-size: 11px;
+    padding-bottom: 20px;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 0 0 10px 10px;
+    padding: 10px;
+}
+
+.footer-item-1, .footer-item-2, .footer-item-3, .footer-item-4{
+    height: 0;
+}
+
+.footer-item-1, .footer-item-2, .footer-item-3 {
+    padding-right: 15px;
+}
